@@ -5,48 +5,66 @@ body{
     font-family: 'Source Serif Pro', serif;
 }
 /*Phan chung*/
-header{
-    width: 95.2%;
+.headerinner{
+    max-width: 1024px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
     border-bottom-width: 20%;
     border-bottom-color: brown;
     border-bottom-style: solid;
-    text-align: center;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
-    padding: 2.4%;
 }
-footer{
+.logo{
+    max-width: 10rem;
+}
+.menu{
     display: flex;
-    justify-content: space-between;
-    width: 98%;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    padding: 1%;
+    align-items: center;
 }
-.menu_logo{
-    margin: 3%;
+.menu-items{
+    margin: 0 1rem;
 }
-.menu_1{
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-a:link{
-    font-size: 70%;
+.menu_link{
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
+    display: block;
+    padding: 2rem;
 }
-a:hover, a:active{
-    color: brown;
-}
-
-/*Phan tab chinh*/
-div.end_2{
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-}
+footer{
+        background-color: black;
+        color: whitesmoke;
+        padding: 0.5rem;
+    }
+.footer_inner{
+        align-items: center;
+        margin: 0 auto;
+        max-width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+    }
+.social{
+        max-width: 6rem;
+        margin: 1rem 0;
+    }
+.infor{
+        display: flex;
+        align-items: center;
+    }
+.infor_items{
+        margin: 0 1rem;
+    }
+.open{
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+/*tab home*/
 .hinhanh{
     position: relative;
+    margin: 30px;
 }
 button{
     position: absolute;
@@ -55,13 +73,28 @@ button{
     border-radius: 10px;
 }
 
-/*Phan tab menu*/
+/*tab menu*/
+.tab_name{
+    position: sticky;
+    top: 0;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+
+}
+.tabname_inner{
+    background-color: #F7B557;
+}
 .food{
     height: 90%;
     width: 100%;
     object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
 }
-.menu{
+.body_menu_tab{
+    background: linear-gradient(#F7B557, whitesmoke);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px 300px 300px 300px;
