@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Source+Serif+Pro&display=swap');
-
+/*Phan chung*/
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Source Serif Pro', serif;
 }
-/*Phan chung*/
 .headerinner{
     max-width: 1024px;
     margin: 0 auto;
@@ -32,48 +31,6 @@ body{
     display: block;
     padding: 2rem;
 }
-footer{
-        background-color: black;
-        color: whitesmoke;
-        padding: 0.5rem;
-    }
-.footer_inner{
-        align-items: center;
-        margin: 0 auto;
-        max-width: 1024px;
-        display: flex;
-        justify-content: space-between;
-        font-size: 0.8rem;
-    }
-.social{
-        max-width: 6rem;
-        margin: 1rem 0;
-    }
-.infor{
-        display: flex;
-        align-items: center;
-    }
-.infor_items{
-        margin: 0 1rem;
-    }
-.open{
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
-    }
-    
-/*tab home*/
-.hinhanh{
-    position: relative;
-    margin: 30px;
-}
-button{
-    position: absolute;
-    top: 80%; right: 1%;
-    background-color: rgba(red, green, blue, .9);
-    border-radius: 10px;
-}
-
-/*tab menu*/
 .tab_name{
     position: sticky;
     top: 0;
@@ -85,7 +42,47 @@ button{
 }
 .tabname_inner{
     background-color: #F7B557;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, .6);
 }
+footer{
+        background-color: black;
+        color: whitesmoke;
+        padding: 0.5rem;
+}
+.footer_inner{
+        align-items: center;
+        margin: 0 auto;
+        max-width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+}
+.social{
+        max-width: 6rem;
+        margin: 1rem 0;
+}
+.infor{
+        display: flex;
+        align-items: center;
+}
+.infor_items{
+        margin: 0 1rem;
+}
+.open{
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+}
+    
+/*tab home*/
+.ho_items{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.ho_pic{
+    width: 100%;
+}
+
+/*tab menu*/
 .food{
     height: 90%;
     width: 100%;
@@ -93,7 +90,7 @@ button{
     border-radius: 20px;
     overflow: hidden;
 }
-.body_menu_tab{
+.body_menu{
     background: linear-gradient(#F7B557, whitesmoke);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
